@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.SwingGUI">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+    <margin top="10" left="15" bottom="15" right="15"/>
+    <constraints>
+      <xy x="6" y="8" width="596" height="293"/>
+    </constraints>
+    <properties>
+      <background color="-12828863"/>
+      <enabled value="false"/>
+      <focusable value="true"/>
+      <minimumSize width="50" height="50"/>
+      <opaque value="true"/>
+      <preferredSize width="600" height="400"/>
+      <requestFocusEnabled value="false"/>
+      <verifyInputWhenFocusTarget value="true"/>
+    </properties>
+    <border type="etched"/>
+    <children>
+      <component id="963a" class="javax.swing.JButton" binding="chooseFileButton">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Выбрать файл"/>
+        </properties>
+      </component>
+      <component id="10555" class="javax.swing.JComboBox" binding="stateSelectionBox">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="25"/>
+            <preferred-size width="200" height="25"/>
+            <maximum-size width="400" height="25"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <vspacer id="d2c1c">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="50"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <hspacer id="5c05d">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="350" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="f98bc" class="javax.swing.JTextArea">
+        <constraints>
+          <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="6" anchor="10" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12828863"/>
+          <caretColor color="-12828863"/>
+          <disabledTextColor color="-1"/>
+          <editable value="false"/>
+          <enabled value="false"/>
+          <font name="Times New Roman" size="20"/>
+          <foreground color="-1"/>
+          <lineWrap value="false"/>
+          <margin top="40" left="0" bottom="0" right="0"/>
+          <name value="textArea2"/>
+          <selectedTextColor color="-1"/>
+          <text value="Выберите страну:"/>
+        </properties>
+      </component>
+      <component id="9a2e0" class="javax.swing.JTextArea" binding="fileDirectoryText">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12828863"/>
+          <caretColor color="-12828863"/>
+          <disabledTextColor color="-1"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font name="Times New Roman" size="16"/>
+          <foreground color="-1"/>
+          <name value="textArea2"/>
+          <selectedTextColor color="-1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a36fd" class="javax.swing.JButton" binding="calculateButton">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Расчитать"/>
+        </properties>
+      </component>
+      <hspacer id="a36e8">
+        <constraints>
+          <grid row="0" column="2" row-span="7" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="f2393" class="javax.swing.JTextArea" binding="resultText">
+        <constraints>
+          <grid row="3" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="180" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font size="18"/>
+        </properties>
+      </component>
+      <component id="8fde1" class="javax.swing.JTextArea">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="10" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="15"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12828863"/>
+          <caretColor color="-12828863"/>
+          <disabledTextColor color="-1"/>
+          <editable value="false"/>
+          <enabled value="false"/>
+          <font name="Times New Roman" size="16"/>
+          <foreground color="-1"/>
+          <lineWrap value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <name value=""/>
+          <selectedTextColor color="-1"/>
+          <text value="Кол-во населения в стране:"/>
+        </properties>
+      </component>
+      <vspacer id="ac52e">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
